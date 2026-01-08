@@ -85,7 +85,6 @@
   bottom: 0;
   left: 0;
   width: 100%;
-  height: auto;          /* ← 全部見せる */
   padding: 20px 0;
   text-align: center;
   background: black;
@@ -98,6 +97,10 @@
   max-width: 1200px;     /* 大きくなりすぎ防止 */
   height: auto;
   opacity: 0.95;
+}
+        body {
+  padding-bottom: 300px;
+  box-sizing: border-box;
 }
     </style>
 </head>
@@ -172,10 +175,7 @@
 <div id="bottom-image">
   <img src="images/footer-cat.png" alt="猫の画像">
 </div>
-    body {
-  padding-bottom: 300px; /* #bottom-image の height と同じ */
-  box-sizing: border-box;
-}
+ 
 </body>
     
 </html>
